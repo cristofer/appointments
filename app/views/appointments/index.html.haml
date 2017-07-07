@@ -1,5 +1,11 @@
+= stylesheet_pack_tag 'appointments'
+
 %h1 React Calendar
 
 %h2 Appointments
 
-= react_component('Appointments', appointments: @appointments)
+//= react_component('Appointments', appointments: @appointments)
+
+#appointments_data{data: @appointments.to_json}
+
+= javascript_pack_tag ‘appointments’

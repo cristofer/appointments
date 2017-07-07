@@ -45,6 +45,6 @@ group :development do
 end
 
 gem 'puma'
-gem 'react-rails'
 gem 'haml'
 gem 'haml-rails'
+gem 'webpacker'
